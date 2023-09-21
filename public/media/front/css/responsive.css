@@ -1,0 +1,357 @@
+@charset "utf-8";
+@media screen and (min-width : 1400px) {
+	.watter-mark-fix {
+		width:540px;
+	}
+}
+@media screen and (min-width : 1200px) {
+}
+@media screen and (min-width : 992px) and (max-width : 1199px) {
+	.mob-watter img{
+		width:100%;
+	}
+	.mob-screen img {
+		width:100%;
+	}
+	.mob-screen .mob-watter {
+		width:250px;
+		right:50px;
+	}
+	.watter-mark-fix {
+		width:300px;
+	}
+	.right-yellow-screens h1 {
+		font-size:34px;
+	}
+	.right-yellow-screens h2 {
+		font-size:60px;
+	}
+	.sub-head {
+		font-size:36px;
+	}
+	.about-sec .main-ab-bg {
+		bottom:-30px;
+	}
+	.center-mob-div {
+		width:310px;
+	}
+	.splash-light-left {
+		left:-10px;
+	}
+	.splash-light-right {
+		right:-10px;
+	}
+	.video-sec h2 {
+		font-size:36px;
+	}
+}
+@media screen and (min-width : 768px) and (max-width : 991px) {
+	.custom-nav {
+		padding:0 30px;
+	}
+	.logo img {
+		width:100px;
+	}
+	.nav-navigations {
+		margin:25px 0 0;
+	}
+	.watter-mark-fix {
+		display:none;
+	}
+	.mob-screen img {
+		width:100%;
+	}
+	.mob-screen .mob-watter {
+		width:200px;
+		right:25px;
+	}
+	.right-yellow-screens h1{
+		font-size:30px;
+	}
+	.right-yellow-screens h2{
+		font-size:40px;
+	}
+	.left-mob-screens, .top-ban-cont-sec, .right-yellow-screens, .about-sec {
+		min-height:500px !important;
+	}
+	.nav-navigations ul li a {
+		font-size:14px;
+		padding:4px 10px;
+	}
+	.sub-head {
+		font-size:30px;
+	}
+	.head-para {
+		font-size:14px;
+	}
+	.about-sec .main-ab-bg {
+		bottom:-10px;
+	}
+	.app-infos .text-right, .app-infos .text-left {
+		text-align:center;
+	}
+	.inner-app-feat{
+		padding:10px 0;
+	}
+	.center-mob-div {
+		display:none;
+	}
+	.news-inner .col-sm-6 {
+		width:100%;
+	}
+}
+@media screen and (max-width : 767px) {
+	.custom-nav {
+		padding:0 30px;
+	}
+	.sticky-header .custom-nav {
+		padding:0 10px;
+	}
+	.sticky-header .logo img {
+		width:80px;
+	}
+	.logo img {
+		width:100px;
+	}
+	.nav-navigations {
+		margin:25px 0 0;
+	}
+	.watter-mark-fix {
+		display:none;
+	}
+	.mob-screen img {
+		width:100%;
+	}
+	.mob-screen .mob-watter {
+		width:200px;
+		right:25px;
+	}
+	.right-yellow-screens h1{
+		font-size:30px;
+	}
+	.right-yellow-screens h2{
+		font-size:40px;
+	}
+	.left-mob-screens, .top-ban-cont-sec, .right-yellow-screens, .about-sec {
+		min-height:500px !important;
+	}
+	.nav-navigations ul li a {
+		font-size:14px;
+		padding:4px 10px;
+	}
+	.sub-head {
+		font-size:30px;
+	}
+	.head-para {
+		font-size:14px;
+	}
+	.about-sec .main-ab-bg {
+		bottom:-10px;
+	}
+	.app-infos .text-right, .app-infos .text-left {
+		text-align:center;
+	}
+	.inner-app-feat{
+		padding:10px 0;
+	}
+	.center-mob-div {
+		display:none;
+	}
+	.news-inner .col-sm-6 {
+		width:100%;
+	}
+	.inner-hig-news {
+		margin-bottom:15px;
+	}
+	.footer-inner {
+		margin:30px 0;
+	}
+	.footer-inner .col-sm-4, .footer-bot, .copy-rights {
+		text-align:center;
+	}
+}
+@media screen and (max-width : 560px) {
+	.custom-nav {
+		padding:0 10px;
+	}
+	.left-mob-screens, .right-yellow-screens {
+		width:100%;
+	}
+	.top-ban-cont-sec::after {
+		display:none;
+	}
+	.right-yellow-screens {
+		min-height:200px !important;
+	}
+	.app-infos {
+		margin:10px 0;
+	}
+	.inner-app-feat {
+		border-bottom:1px solid #eee;
+	}
+	.inner-app-feat h3 {
+		margin:05px 0;
+		font-size:14px;
+	}
+	.inner-app-feat p {
+		font-size:12px;
+	}
+	.video-sec h2 {
+		font-size:26px;
+	}
+	.icon-play-div {
+		margin-bottom:10px;
+	}
+	.video-sec .icon-play-div i {
+		font-size:40px;
+	}
+	.sub-head {
+		font-size:26px;
+	}
+	.head-para {
+		line-height:20px;
+	}
+	.inner-hig-news {
+		min-height:340px;
+	}
+	.sticky-header .timeline-section {
+		right:10px;
+	}
+	.news-right-medias .media-img {
+		margin-right:0px;
+	}
+	.cap-head {
+		margin:05px 0;
+		font-size:15px;
+	}
+	.news-right-medias .media {
+		margin-bottom:15px;
+	}
+	.faq-content .panel.panel-default .panel-title > a, .faq-content .panel-body, .footer-infos p {
+		font-size:13px;
+	}
+	.contact-forms input {
+		height:45px;
+		padding:0 15px;
+	}
+	.contact-forms textarea {
+		padding:15px;
+		height:100px;
+	}
+	.footer-bot-left ul li a {
+		padding: 0 20px 10px;
+		display:block;
+	}
+	.copy-rights {
+		font-size:11px;
+	}
+	.footer-infos {
+		margin-bottom:10px;
+	}
+	.about-sec .main-ab-bg {
+		width:100%;
+		margin-left:0px;
+		left:0;
+	}
+	.contact-forms .btn {
+		font-size:14px;
+	}
+	.contact-forms {
+		text-align:center;
+	}
+	
+	.nav-open-btn {
+		display:block;
+	}
+	.nav-navigations {
+		position:absolute;
+		width:100%;
+		right:-100%;
+		top:75px;
+		margin:0px;
+		background:#FFAE01;
+		padding:20px;
+		text-align:center;
+		box-shadow:0 4px 5px #777;
+	}
+	.nav-navigations ul li {
+		display:block;
+	}
+	.log-dash-open .nav-navigations {
+		right:0;
+	}
+	.sticky-header .nav-navigations {
+		margin:0px;
+		top:61px;
+	}
+	.sticky-header .nav-open-btn {
+		top:10px;
+	}
+	.custom-nav {
+		background:#FFAE01;
+	}
+	.timeline ul li a:hover:after {
+		right: 10px;
+	}
+	.footer-infos h5 {
+		font-size:14px;
+	}
+	.middle-liner {
+		margin-right:0px;
+	}
+	.middle-liner:after {
+		display:none;
+	}
+}
+@media screen and (max-width : 340px) {
+	.left-mob-screens {
+		min-height:380px !important;
+	}
+	.mob-screen .mob-watter {
+		width:148px;
+	}
+	.inner-hig-news {
+		min-height:250px;
+	}
+	.news-caption {
+		padding:05px;
+	}
+	.news-caption p {
+		font-size:13px;
+	}
+	.news-right-medias .media-body, .news-right-medias .media-left {
+		display:inline;
+	}
+	.news-right-medias .media-img {
+		height:100px;
+		width:100px;
+		margin:0 auto;
+	}
+	.news-right-medias .media{
+		text-align:center;
+		padding-bottom:10px;
+		border-bottom:1px solid #eee;
+	}
+	.faq-content .panel.panel-default .panel-title > a, .faq-content .panel-body, .footer-infos p {
+		font-size:11px;
+	}
+	.faq-content .panel.panel-default i {
+		font-size:10px;
+		padding:0 10px;
+	}
+	.right-yellow-screens h1 {
+		font-size:24px;
+	}
+	.sub-head, .video-sec h2 {
+		font-size:18px;
+	}
+	.head-para, .video-sec p {
+		font-size:13px;
+	}
+	.about-sec {
+		min-height:400px !important;
+	}
+	.inner-app-feat i {
+		font-size:30px;
+	}
+}
